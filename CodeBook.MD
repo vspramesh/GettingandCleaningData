@@ -35,18 +35,21 @@ Section 1
 - 'test/y_test.txt': Test labels.
 
 
-- x_data : stores x_train ,x_test text data
-- y_data : stores y_train ,y_test text data
-- subject_data : stores subject_train ,subject_test text data
+-  x_data : stores x_train ,x_test text data
+
+-  y_data : stores y_train ,y_test text data
+
+-  subject_data : stores subject_train ,subject_test text data
 
 Section 2
 
-- features : stores features.txt data
-- x_data : Extracts only the measurements on the mean and standard deviation for each measurement
+-  features : stores features.txt data
+
+-  x_data : Extracts only the measurements on the mean and standard deviation for each measurement
 
 Section 3
 
-- activity : stores activity_labels.txt
+-  activity : stores activity_labels.txt
 
 Section 4
 
@@ -56,6 +59,7 @@ Section 5
 
 Per the project instructions, we need to produce only a data set with the average of each variable for each activity and subject
 
-- averages_data : stores the average of each variable for each activity
-- tidydata.txt : output the tidy dataset 
+-  averages_data : stores the average of each variable for each activity
+
+-  tidydata.txt : output the tidy dataset 
  
